@@ -15,3 +15,5 @@ git commit -m "Initial Commit"
 npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
 
 npx @chakra-ui/cli snippet add
+
+git log --oneline
