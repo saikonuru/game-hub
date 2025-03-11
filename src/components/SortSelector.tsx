@@ -20,9 +20,7 @@ const SortSelector = ({ onSelectedSortOrder, sortOrder }: Props) => {
 
   return (
     <Menu>
-      <MenuButton
-        as={Button}
-        rightIcon={(<BsChevronDown />) as React.ReactElement}>
+      <MenuButton as={Button} rightIcon={(<BsChevronDown />) as React.ReactElement}>
         Order by: {currentSortOrder?.label || 'Relevance'}
       </MenuButton>
       <MenuList>
